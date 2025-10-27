@@ -16,7 +16,6 @@ A modular **Authentication Microservice** built with **Node.js**, **Express**, a
 ---
 
 ## 🧰 Tech Stack
-|----------------------------------------------|
 | Layer     | Technology                       |
 |-----------|----------------------------------|
 | Language  | Node.js                          |
@@ -27,7 +26,6 @@ A modular **Authentication Microservice** built with **Node.js**, **Express**, a
 | Testing   | Jest + Supertest                 |
 | Config    | dotenv                           |
 | Logging   | Winston or custom logger utility |
-|----------------------------------------------|
 
 ---
 
@@ -233,23 +231,22 @@ auth-service/
 ---
 
 ## 🧰 Available Scripts
-
-| Command | Description |
-|----------|-------------|
-| `npm start` | Start the app in production |
+| Command       | Description                 |
+|---------------|-----------------------------|
+| `npm start`   | Start the app in production |
 | `npm run dev` | Start in dev mode (nodemon) |
-| `npm test` | Run unit tests |
+| `npm test`    | Run unit tests              |
 
----
+---------
 
 ## ⚠️ Common Issues
 
-| Error | Solution |
-|-------|-----------|
-| `MongoNetworkError: failed to connect` | Ensure MongoDB is running locally or in Docker |
-| `Cannot find module 'dotenv'` | Run `npm install` to install all dependencies |
-| `Tests hang afterAll()` | Ensure Mongoose disconnects and MongoMemoryServer stops properly |
-
+| Error                                  | Solution                                          |
+|----------------------------------------|---------------------------------------------------|
+| `MongoNetworkError: failed to connect` | Ensure MongoDB is running locally or in Docker    |
+| `Cannot find module 'dotenv'`          | Run `npm install` to install all dependencies     |
+| `Tests hang afterAll()`                | Ensure Mongoose disconnects and                   |
+|                                        |  MongoMemoryServer stops properly                 |
 ---
 
 ## 👨‍💻 Contributing
