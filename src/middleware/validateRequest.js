@@ -4,7 +4,6 @@ const AppError = require('../utils/AppError');
 const { COMMON } = require('../constants/messages');
 
 const validateRequest = (req, res, next) => {
-    console.log('Hiiiii');
   const errors = validationResult(req);
 
   if (!errors.isEmpty()) {
